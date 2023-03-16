@@ -1,7 +1,7 @@
 body {
-	background-color: green;
-	color: white;
-	font-family: Arial, sans-serif;
+	background-color: #99cc99; /* light green background */
+	color: #333; /* dark text color */
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* updated font */
 }
 
 header {
@@ -13,6 +13,8 @@ h1 {
 	margin: 0;
 	color: white;
 	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* updated font */
 }
 
 nav ul {
@@ -29,6 +31,8 @@ nav li {
 nav a {
 	color: white;
 	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 nav a:hover {
@@ -46,10 +50,14 @@ section {
 h2 {
 	font-size: 24px;
 	margin-bottom: 10px;
+	font-weight: bold;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* updated font */
 }
 
 p {
 	line-height: 1.5;
+	font-size: 16px;
+	font-family: Tahoma, Geneva, Verdana, sans-serif; /* updated font */
 }
 
 footer {
@@ -58,4 +66,5 @@ footer {
 	text-align: center;
 	color: #ccc;
 	font-size: 14px;
+	font-family: Tahoma, Geneva, Verdana, sans-serif; /* updated font */
 }
